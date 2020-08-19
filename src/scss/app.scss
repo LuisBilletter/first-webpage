@@ -19,12 +19,64 @@ h1 {
 .container {
   background-color: lightblue;
   margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1272&q=80");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 img {
   max-width: 100%;
   height: auto;
 }
+
+.transparent {
+  opacity: 0.5;
+}
+
+
+p.b {
+  font-style: italic;
+}
+
+nav.c {
+  color: white;
+}
+
+li {
+  font-style: oblique;
+}
+
