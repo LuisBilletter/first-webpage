@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- TODO: change the html language, it is important if you have content in different langauages -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,17 +7,20 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <!-- TODO: each content should be wrapped by a container and row, column - otherwise it will break in mobile view. did you checked the mobile view and used media queries already? -->
     <h1 class="text-center">My First Webpage</h1>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80" class="img-fluid">
+          <!-- TODO: the nav should have rendered in white color-->
           <nav class="navbar navbar-light navbar-expand-sm bg-transparent top-left c">
             <div class="container-fluid collapse navbar-collapse" id="navbarMenu">
                 <h3><a class="navbar-brand" href="#">Luis</a></h3>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+              <!-- TODO: position it to right-->
               <ul class="navbar-nav">
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Info</a></li>
@@ -46,6 +50,7 @@
             <li>My Name is Luis</li>
             <li>Age : 20</li>
             <li>Hobbys : Video Games, Swimming, Sports</li>
+            <!-- TODO: this html is not valid -->
             <img src="https://images.unsplash.com/photo-1570872309681-828bdb21903c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="img-fluid" style="width:400px;height:210px;">
           </ul>
         </div>
@@ -55,6 +60,7 @@
             <li>Interessted in Technology since Childhood</li>
             <li>Hardware & Software was a fetish to me</li>
             <li>More Leanractive in IT then anywhere else</li>
+            <!-- TODO: this html is not valid -->
             <img src="https://images.unsplash.com/photo-1573496005375-5c898f5275e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="img-fluid" style="width:400px;height:210px;">
           </ul>
         </div>
@@ -82,6 +88,7 @@
         <div class="col-sm">
           <h4>Escape From Tarkov</h4>
           <img src="https://www.mightygamesmag.de/wp-content/uploads/2017/06/Escape-from-Tarkov1.jpg" class="img-fluid" style="width:400px;height:210px;">
+          <!-- TODO: should be spaced by css not by br, its just for texts ? -->
           <br>
           <p class="b">Escape from Tarkov ist ein First-Person-Shooter, der von Battlestate Games entwickelt und vermarktet wird.<br>
             Am 28. Dezember 2016 erschien das Spiel erstmals in einer geschlossenen Alpha-Version für ausgewählte Spieler.<br>
@@ -90,8 +97,10 @@
         <div class="col-sm">
           <h4>League of Legends</h4>
           <img src="https://i.pinimg.com/originals/57/48/7b/57487b04649acae60efd9a98ba290a3b.jpg" class="img-fluid" style="width:400px;height:210px;">
+          <!-- TODO: should be spaced by css not by br, its just for texts ? -->
           <br>
           <div>
+          <!-- TODO: what is class b? keep you DOM clean -->
           <p class="b">League of Legends (kurz: LoL oder einfach League) ist ein von Riot Games entwickeltes Computerspiel, das am 27. Oktober 2009 für Windows und macOS veröffentlicht wurde.<br>
              Es erschien als Free-to-play-MOBA.<br>
              Das Spiel wurde 2016 von ca. 100 Millionen Spielern monatlich gespielt.</p>
@@ -100,7 +109,9 @@
         <div class="col-sm">
           <h4>Sekiro: Shadows die Twice</h4>
           <img src="https://i.pinimg.com/564x/59/81/f2/5981f25b2bb4b1c76079cd5e833fe175.jpg" class="img-fluid" style="width:400px;height:210px;">
+          <!-- TODO: should be spaced by css not by br, its just for texts ? -->
           <br>
+          <!-- TODO: what is class b? keep you DOM clean -->
           <p class="b">Sekiro: Shadows Die Twice ist ein von From Software entwickeltes Action-Adventure-Videospiel.<br>
             Das Spiel, bei dem ein Shinobi aus der Third-Person-Perspektive gesteuert wird, wurde am 22. März 2019 weltweit für Microsoft Windows, PlayStation 4 und Xbox One veröffentlicht.<br>
              Das Szenario des Fantasy-Spiels ist an die Sengoku-Zeit der japanischen Geschichte angelehnt.</p>
@@ -110,11 +121,13 @@
           <div class="row">
             <div class="col">
               <h4>Why do I do this?</h4>
+              <!-- TODO: a proper tag is missing -->
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             </div>
             <div class="col">
               <h4>How to do it!</h4>
+              <!-- TODO: a proper tag is missing -->
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             </div>
@@ -125,16 +138,23 @@
     <section class="container">
       <div class="row">
         <div class="col-xl">
-          <h2><u>Why is EFT my favorite Game?</h2></u><br>
+          <!-- TODO: html is not valid -->
+          <h2><u>Why is EFT my favorite Game?</h2></u>
+          <!-- TODO: spacing by css -->
+          <br>
+          <!-- TODO: remove inline style -->
           <img src="https://cdn.vox-cdn.com/thumbor/ZyqdcoHfYlibzC5Ey4lZfO8iVwQ=/0x0:2557x1435/1200x800/filters:focal(743x487:1151x895)/cdn.vox-cdn.com/uploads/chorus_image/image/66240760/tarkov_UEC.0.jpg" class="img-thumbnail float-left" style="width:400px;height:210px;">
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><br>
+          <!-- TODO: remove inline style -->
           <img src="https://static.giga.de/wp-content/uploads/2020/01/eft6.jpg" class="img-thumbnail float-right" style="width:400px;height:210px;">
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><br>
+          <!-- TODO: remove inline style -->
           <img src="https://www.futuregamereleases.com/wp-content/uploads/2020/07/escape-from-tarkov-0.12.7.jpg" class="img-thumbnail float-left" style="width:400px;height:210px;">
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><br>
         </div>
       </div>
     </section>
+    <!-- TODO: no inline style, better define a class -->
     <section class="container" style="background-color: white;">
       <div class="row">
         <div class="col-xl">
@@ -145,6 +165,7 @@
         </div>
       </div>
     </section><!-- Bundled File -->
+    <!-- TODO: no inline style, better define a class -->
     <section class="container" style="background-color: white;">
       <div class="row">
         <div class="col"><strong>Fact 1</strong></div>
@@ -158,15 +179,24 @@
         <p><small>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</small></p>
       </div>
     </section>
+    <!-- TODO: no inline style, better define a class -->
     <section class="container" style="background-color: darkblue;">
       <div class="row">
         <div class="col-sm">
-          <h3 style="color: white;"> Text</h3><br>
+          <!-- TODO: no inline style, better define a class -->
+          <h3 style="color: white;"> Text</h3>
+          <!-- TODO: define a spacing class -->
+          <br>
+          <!-- TODO: no inline style, better define a class -->
           <p style="color: white;"><small>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</small></p>
-          <button type="button" class="btn btn-primary" style="color: white;">Mehr</button><br>
+          <!-- TODO: no inline style, better define a class -->
+          <button type="button" class="btn btn-primary" style="color: white;">Mehr</button>
+          <!-- TODO: define a spacing class -->
+          <br>
         </div>
       </div>
     </section>
+    <!-- TODO: not valid -->
     <script src="./bundle.js"></script>
   </body>
 </html>

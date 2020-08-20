@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
-
+ /*
+  You should divide CSS by topics,
+  for example: typography, elements, helpers
+  take a look at bootstraps css
+  otherwise css is getting to big and is not maintainable
+ */
 .btn {
   background-color: #4CAF50;
   border: none;
@@ -79,4 +84,3 @@ nav.c {
 li {
   font-style: oblique;
 }
-
