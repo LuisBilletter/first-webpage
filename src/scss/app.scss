@@ -75,6 +75,8 @@ img {
 
 p.b {
   font-style: italic;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 nav.c {
@@ -83,4 +85,32 @@ nav.c {
 
 li {
   font-style: oblique;
+  padding-top: 15px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar{
+  background:transparent;
+}
+
+.img {
+  width: 400px;
+  height: 210px;
+}
+
+.line {
+  line-height: 30px;
+}
+
+.margin {
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+p {
+  padding-top: 15px;;
 }
