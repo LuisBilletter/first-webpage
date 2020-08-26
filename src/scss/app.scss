@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
-
+ /*
+  You should divide CSS by topics,
+  for example: typography, elements, helpers
+  take a look at bootstraps css
+  otherwise css is getting to big and is not maintainable
+ */
 .btn {
   background-color: #4CAF50;
   border: none;
@@ -14,6 +19,10 @@
 }
 h1 {
   background-color: green;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 .container {
@@ -68,15 +77,38 @@ img {
 }
 
 
-p.b {
-  font-style: italic;
-}
-
 nav.c {
   color: white;
 }
 
 li {
   font-style: oblique;
+  padding-top: 15px;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar{
+  background:transparent;
+}
+
+.img {
+  width: 400px;
+  height: 210px;
+}
+
+.line {
+  line-height: 30px;
+}
+
+.margin {
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+p {
+  padding-top: 15px;
+}
