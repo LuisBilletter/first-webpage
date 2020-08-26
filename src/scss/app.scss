@@ -21,6 +21,10 @@ h1 {
   background-color: green;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 .container {
   background-color: lightblue;
   margin-bottom: 15px;
@@ -73,12 +77,6 @@ img {
 }
 
 
-p.b {
-  font-style: italic;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-}
-
 nav.c {
   color: white;
 }
@@ -112,5 +110,5 @@ li {
 }
 
 p {
-  padding-top: 15px;;
+  padding-top: 15px;
 }
